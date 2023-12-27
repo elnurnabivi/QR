@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import { Button } from "../components";
 import { motion, useInView, useAnimation } from "framer-motion";
-import QrCodeWithLogo from "qrcode-with-logos";
+import QrCodeWithLogo from "qrcode.react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCloudArrowUp } from "@fortawesome/free-solid-svg-icons";
 import ScanMe from "../assets/scanme.png";
